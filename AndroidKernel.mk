@@ -94,4 +94,5 @@ fih_gen_kernelconfig: $(KERNEL_OUT) $(KERNEL_CONFIG)
 	@echo "$(MAKE) -C kernel O=../$(KERNEL_OUT) ARCH=arm CROSS_COMPILE=arm-eabi- $(KERNEL_DEFCONFIG)"
 	@echo "=========================================}"
 #/* FIH-MTD-SI-JS-BuildEnv-00} */
+
 endif
